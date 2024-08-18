@@ -1,0 +1,236 @@
+/* PROFISSIONAIS */
+
+.profissionais-conteudo {
+  padding-bottom: 170px;
+}
+
+.textoprofissional {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.texto-profissionais {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--cor-p1);
+  margin-bottom: 16px;
+}
+
+.card-container1,
+.card-container2,
+.card-container3,
+.card-container4,
+.card-container5,
+.card-container6,
+.card-container7 {
+  flex-direction: row;
+  display: flex;
+}
+
+.card-profissionais {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  justify-content: center;
+  padding: 25px;
+  text-align: center;
+  width: 500px;
+  transition: 0.3s ease;
+  border-radius: 15px;
+}
+
+.card-profissionais img {
+  width: 200px;
+  height: 230px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.card-profissionais {
+  background-color: #fff;
+}
+
+.containerprof {
+  padding: 10px;
+  flex: 1;
+}
+
+.img-container img{
+  max-width: 190px;
+}
+
+.imgprof img {
+ max-width: 100%;
+}
+
+
+
+.card-container1,
+.card-container2,
+.card-container3,
+.card-container4,
+.card-container5,
+.card-container6,
+.card p {
+  text-align: center;
+  justify-content: center;
+  margin-left: 0px;
+  font-size: 20px;
+  display: flex;
+  width: 48%;
+}
+
+.tudo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.outro {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+p {
+  font-weight: lighter;
+}
+
+.card-container5,
+.card-container6,
+.card-container7 {
+  position: relative;
+  bottom: 12px;
+  width: 48%;
+}
+
+.card-container-hover{
+  padding: 10px;
+  border-radius: 15px;
+}
+.card-container-hover:hover{
+  background: linear-gradient(
+    0deg,
+    rgba(0, 128, 0, 0.507),
+    rgba(144, 238, 144, 0.541)
+  );
+  box-shadow: 8px 5px 15px rgba(144, 238, 144, 0.541);
+}
+
+
+
+.nsei,
+.nsei2 {
+  width: 100%;
+  margin-top:40px;
+  padding: 20px;
+}
+
+
+
+@media (min-width: 668px) and (max-width: 1120px) {
+  .tudo, .outro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .card-container-hover{
+    max-width: 400px;
+  }
+  .card-profissionais {
+    min-width: 100px;
+    width: 350px; /* Ajuste a largura dos cards conforme necessário */
+    max-width: 500px; /* Garantir que todos os cards tenham o mesmo tamanho máximo */
+    margin-bottom: 20px; /* Espaço entre os cards */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profissionais-conteudo {
+    padding-bottom: 70px; /* Ajuste o padding conforme necessário */
+    padding-left: 10px; /* Para manter os cards centralizados com margens */
+    padding-right: 10px;
+  }
+
+  .nsei,
+  .nsei2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .texto-profissionais {
+    position: relative;
+    top: 0;
+    text-align: center;
+  }
+}
+
+
+
+@media (max-width: 668px) {
+  .tudo, .outro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card-profissionais {
+    min-width: 100px;
+    width: 300px; /* Ajuste a largura dos cards conforme necessário */
+    max-width: 500px; /* Garantir que todos os cards tenham o mesmo tamanho máximo */
+    margin-bottom: 20px; /* Espaço entre os cards */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profissionais-conteudo {
+    padding-bottom: 70px; /* Ajuste o padding conforme necessário */
+    padding-left: 10px; /* Para manter os cards centralizados com margens */
+    padding-right: 10px;
+  }
+
+  .nsei,
+  .nsei2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .texto-profissionais {
+    position: relative;
+    top: 0;
+    text-align: center;
+  }
+  .img-container img{
+    max-width: 250px;
+  }
+  
+  .imgprof img {
+   max-width: 100%;
+  }
+.card-container1,
+.card-container2,
+.card-container3,
+.card-container4,
+.card-container5,
+.card-container6,
+.card-container5,
+.card-container6,
+.card-container7 {
+    width: 100%;
+  }
+  .card-profissionais{
+    width: 100%;
+  }
+}
+

@@ -1,0 +1,242 @@
+/* Utilitarios para Home */
+
+.titulo-home {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.2;
+  color: var(--cor-p1);
+  margin-bottom: 16px;
+}
+
+.home-imagem {
+  max-width: 550px;
+  padding: 2px;
+  border-radius: 5px;
+}
+.home-imagem:hover{
+ background-color: #323757;
+}
+
+.home-imagem img {
+  border: 3px solid #323757;
+  border-radius: 4px;
+}
+
+.home-conteudo {
+  max-width: 500px;
+}
+
+.paragrafos-home {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 1.1;
+  margin-bottom: 40px;
+  color: #474747;
+}
+
+.home-btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1;
+  padding: 12px 24px;
+  color: #111;
+  border: 1px solid #111;
+}
+
+.home-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Principal */
+
+.historia-home {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.sobre-home {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.profissionais-home {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.cavalos-home-bg {
+  background-color: #323757;
+  box-shadow: inset 0 -60px #f7f7f7, inset 0 60px #f7f7f7;
+  margin-bottom: 120px;
+}
+
+.cavalos-home {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.cavalos-home .titulo-home {
+  color: #fff;
+}
+
+.cavalos-home .paragrafos-home {
+  color: #cdcdcd;
+}
+
+.cavalos-home .home-btn {
+  color: #fff;
+  border-color: #fff;
+}
+
+.cavalos-home .home-btn:hover {
+  background-color: #fff;
+  color: #111;
+}
+.galeria-home-imagens img:hover{
+  padding: 2px;
+  background-color: #323757;
+}
+
+@media (max-width: 980px) {
+  .historia-home,
+  .sobre-home,
+  .profissionais-home,
+  .cavalos-home {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .historia-home,
+  .profissionais-home {
+    flex-direction: column-reverse;
+  }
+
+  .cavalos-home-bg {
+    background-color: #f7f7f7;
+    box-shadow: none;
+  }
+
+  .cavalos-home .titulo-home {
+    color: #111;
+  }
+
+  .cavalos-home .paragrafos-home {
+    color: #474747;
+  }
+
+  .cavalos-home .home-btn {
+    color: #111;
+    border-color: #111;
+  }
+}
+
+.indicacoes-home .titulo-home {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.indicacoes-home-lista {
+  margin-bottom: 60px;
+}
+
+.indicacoes-home-lista ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.indicacoes-home-lista ul li {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 32px;
+  margin-bottom: 40px;
+}
+
+.indicacoes-home-lista ul li h3 {
+  color: #474747;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.indicacoes-home-lista ul .borda-lados {
+  border-left: 3px solid #323757;
+  border-right: 3px solid #323757;
+}
+
+@media (max-width: 1130px) {
+  .indicacoes-home-lista ul .borda-lados {
+    border: none;
+  }
+}
+
+.galeria-home {
+  margin-bottom: 120px;
+}
+
+.galeria-home .titulo-home {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.galeria-home-container {
+  text-align: center;
+  background-color: #323757;
+  border-radius: 4px;
+}
+
+.galeria-home-container a {
+  width: 100%;
+  padding: 16px 0;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+.galeria-home-container:hover a:hover {
+  background-color: #4a5181;
+}
+
+.galeria-home-imagens {
+  display: flex;
+}
+
+.galeria-home-imagens img {
+  width: 285px;
+}
+
+.galeria-home-imagens img:nth-child(1) {
+  border-radius: 4px 0 0 0;
+}
+
+.galeria-home-imagens img:nth-child(4) {
+  border-radius: 0px 4px 0 0;
+}
+
+@media (max-width: 1139px) {
+  .galeria-home {
+    display: none;
+  }
+}
+
+.parceiros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+  margin-bottom: 60px;
+}

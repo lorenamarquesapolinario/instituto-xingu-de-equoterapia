@@ -1,0 +1,85 @@
+/* CAVALOS */
+
+.textocavalo {
+  padding-top: 15px;
+}
+
+.texto {
+  padding: 40px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--cor-p1);
+  margin-bottom: 16px;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 25px;
+  text-align: center;
+  width: 330px;
+  margin: 10px;
+  transition: 0.3s ease;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.card img {
+  width: 200px;
+  margin: 0 5px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.card:hover {
+  background-color: rgb(241, 241, 241);
+}
+
+.containercavalo {
+  padding: 10px;
+}
+
+.imgcavalo img {
+  width: 280px;
+}
+
+.card-container img {
+  width: 310px;
+  height: 250px;
+}
+
+.card-hover{
+  padding: 5px;
+  border-radius: 15px;
+  margin-bottom: 70px;
+}
+.card-hover:hover{
+  background: linear-gradient(
+    0deg,
+    rgba(0, 128, 0, 0.507),
+    rgba(144, 238, 144, 0.541)
+  );
+  box-shadow: 8px 5px 15px rgba(144, 238, 144, 0.541);
+}
+
+
+
+@media (max-width: 420px) {
+  .card-container img {
+    min-width: 40px;
+    height: 140px;
+  }
+  .card {
+    min-width: 50px;
+    max-width: 220px;
+  }
+  .textocavalo{
+    text-align: center;
+  }
+}

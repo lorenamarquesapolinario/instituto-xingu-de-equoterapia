@@ -1,0 +1,104 @@
+/*Página hístoria*/
+#hist_geral {
+  max-width: 1140px;
+  margin: 0 auto;
+  position: relative;
+}
+#hist_titulo {
+  padding: 6px 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--cor-p1);
+  margin-bottom: 16px;
+}
+.conteudo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/*imagens*/
+.div_histfigure {
+  width: 640px;
+  padding: 10px 0px;
+  border-radius: 15px;
+  width: 40%;
+}
+.hist_img {
+  border-radius: 15px;
+  padding: 10px;
+}
+.hist_img:hover {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 128, 0, 0.507),
+    rgba(144, 238, 144, 0.541)
+  );
+  box-shadow: 8px 5px 15px rgba(144, 238, 144, 0.541);
+}
+/*texto*/
+.conteudo .div_histparagrafo {
+  width: 60%;
+  text-indent: 25px;
+  padding: 20px 20px 0 20px;
+  text-align: justify;
+}
+.conteudo .div_histfigure {
+  width: 40%;
+}
+/*imagem dentro do texto*/
+.div_histparagrafo #hist_imagpaciente2 {
+  width: 70%;
+}
+/*legenda das imagens*/
+.hist_desc {
+  text-align: center;
+  margin: 10px 0 30px 0;
+}
+
+@media (max-width: 1139px) {
+  #hist_geral {
+    max-width: 100%;
+    margin: 0 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #hist_titulo {
+    text-align: center;
+  }
+  #hist_1 {
+    order: 1;
+  }
+  #hist_2 {
+    order: 2;
+  }
+  #hist_3 {
+    order: 3;
+  }
+  #hist_4 {
+    order: 4;
+  }
+  #hist_5 {
+    order: 5;
+  }
+  #hist_6 {
+    order: 6;
+  }
+  .conteudo .div_histparagrafo {
+    width: 100%;
+  }
+  .conteudo .div_histfigure {
+    width: 100%;
+  }
+  .div_histparagrafo #hist_imagpaciente2 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 425px) {
+  #hist_geral {
+    padding: 0px 10px;
+  }
+  #hist_titulo {
+    font-size: 20px;
+  }
+}
